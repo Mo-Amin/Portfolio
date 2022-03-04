@@ -1,3 +1,4 @@
+//Header setup
 let header = document.querySelector("header");
 
 let nav = document.createElement("nav");
@@ -67,6 +68,14 @@ else ContactLink.setAttribute("class", "nav-link");
 ContactLink.setAttribute("href", "contact.html");
 ContactLink.textContent = "Contact";
 
+let Resume = document.createElement("li");
+Resume.setAttribute("class", "nav-item");
+let ResumeLink = document.createElement("a");
+if (header.id === "Resume") ResumeLink.setAttribute("class", "nav-link active");
+else ResumeLink.setAttribute("class", "nav-link");
+ResumeLink.setAttribute("href", "resume.html");
+ResumeLink.textContent = "Resume";
+
 header.append(nav);
 nav.append(container_fluid);
 container_fluid.append(navbarToggler);
@@ -82,6 +91,9 @@ About.append(AboutLink);
 
 ul.append(Projects);
 Projects.append(ProjectsLink);
+
+ul.append(Resume);
+Resume.append(ResumeLink);
 
 ul.append(Contact);
 Contact.append(ContactLink);

@@ -1,0 +1,28 @@
+.PSULogo img {
+  width: 50%;
+}
+.BioContainer .PSULogo {
+  display: flex;
+  justify-content: center;
+}
+.bio p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media (max-width: 600px) {
+  .bio h3 {
+    font-size: 40px;
+  }
+  .bio p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) {
+  .BioContainer .PSULogo {
+    display: block;
+  }
+  .PSULogo img {
+    width: 100%;
+  }
+}
