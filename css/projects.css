@@ -1,0 +1,26 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+  background-color: black;
+}
+
+.card {
+  width: 350px;
+  border: double black 4px !important;
+  margin: 10px;
+}
+.projects {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.MoStats {
+  width: 350px;
+  height: 400px;
+}

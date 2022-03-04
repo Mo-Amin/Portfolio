@@ -1,0 +1,27 @@
+.container h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+  color: wheat;
+}
+textarea {
+  margin-top: 30px !important;
+}
+#Submit,
+#reset {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#Submit > * {
+  width: 100%;
+}
+.container {
+  background-color: rgb(43, 42, 42);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+#reset > * {
+  width: 100%;
+}
