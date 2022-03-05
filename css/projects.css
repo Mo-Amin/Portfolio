@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&display=swap");
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon,
 .carousel-indicators {
@@ -23,4 +25,10 @@
 .MoStats {
   width: 350px;
   height: 400px;
+}
+.Title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Encode Sans", sans-serif;
+  text-shadow: 2px 1px #ff0000;
 }

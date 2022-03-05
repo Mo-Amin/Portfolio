@@ -1,9 +1,13 @@
 .PSULogo img {
   width: 50%;
+  float: right;
 }
 .BioContainer .PSULogo {
   display: flex;
   justify-content: center;
+}
+#paragraph p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .bio p {
   padding-left: 60px;
@@ -24,5 +28,18 @@
   }
   .PSULogo img {
     width: 100%;
+  }
+}
+
+@media (min-width: 1530px) {
+  #paragraph p {
+    font-size: 28px;
+  }
+  #paragraph {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .PSULogo img {
+    width: 70%;
   }
 }
