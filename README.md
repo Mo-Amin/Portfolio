@@ -1,4 +1,4 @@
-## Mohamed-Amin Cheaito Eportfolio
+## Mohamed-Amin Cheaito's ePortfolio
 
 ## Deployed: https://mo-amin.github.io/Portfolio/
 
