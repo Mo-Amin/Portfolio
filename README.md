@@ -34,4 +34,4 @@
 
 - **Google API fonts**
 - **Bootstrap documentation (card, carousel, flex)**
-- **[Form Submit] (https://formsubmit.co/live-demo)**
+- [Form Submit](https://formsubmit.co/live-demo)
